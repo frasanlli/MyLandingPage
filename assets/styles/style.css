@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, footer, form {
+  background: #333;
+  color: white;
+}
+
+header{
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+nav table{
+  width: 100%;
+}
+
+nav table td{
+  border-style: solid;
+  border-color: grey;
+  padding: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+aside {
+  width: 20%;
+  min-width: 5em;
+  background: #f0f0f0;
+  padding: 1em;
+}
+
+aside td{
+  padding-bottom: 1em;
+}
+
+section {
+  flex: 1;
+  padding: 1em;
+}
+
+footer {
+  text-align: center;
+}
+
+article {
+  padding-left: 1em;
+  padding-right: 5em;
+}
+
+article h2, article h3{
+  padding-top: 1em;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  margin-right: 1em;
+  margin-left: 1em;
+  padding: 1em;
+  width: 90%;
+  align-self: center;
+  align-items: center;
+}
+
+label, input{
+  min-width: 20em;
+}
+
+form table{
+  max-height:min-content;
+}
+
+td.textoForm{
+  padding-top: 2em;
+}
+
+textarea{
+  min-width: 20em;
+  min-height: 10em;
+}
