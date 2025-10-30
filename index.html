@@ -5,58 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyLandingPage</title>
-    <link rel="stylesheet" href="..\styles\style.css">
+    <link rel="stylesheet" href="src\styles\style.css">
 </head>
 
 <body>
     <!-- Inicio cabecera -->
-    <header>
-        <h1></h1>
+    <header class="encabezado">
+        <div>
+            <h1>Desarrollo Web y Software</h1>
+            <p>Transformo ideas en soluciones digitales.</p>
+        </div>
     </header>
     <!-- Fin cabecera -->
 
-    <!-- Contenido principal -->
-    <main>
-        <aside>
-            <h3></h3>
-            <table>
-                <tr>
-                    <td>
-                        <a href=""></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href=""></a>
-                    </td>
-                </tr>
-            </table>
-        </aside>
-        <table class="promo">
-            <tr>
-                <td class="promo">
-                    <h2></h2>
-                </td>
-                <td class="promo">
-                    <h2></h2>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img class="imgPromo" src="" >
-                </td>
-                <td>
-                    <img class="imgPromo" src="">
-                </td>
-            </tr>
-        </table>
-    </main>
+    <!-- Contenido promocional -->
+    <section>
+        <div class="promo">
+            <h2>Proyectos Destacados</h2>
+            <div class="promo-grid">
+                <div class ="card">
+                    <img src="" alt="Proyecto 1">
+                    <h3>Proyecto 1</h3>
+                    <p>Web para gestionar herramientas.</p>
+                </div>
+                <div class ="card">
+                    <img src="" alt="Proyecto 2">
+                    <h3>Proyecto 2</h3>
+                    <p>Aplicación para hacer scrapping en varios supermercados (Windows).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin contenido promocional -->
 
-    <!-- Fin Contenido principal -->
+    <!-- Contacto -->
+    <section class="contacto">
+        <div>
+            <h2>¿Qué necesitas?</h2>
+            <p>Cuéntame sobre tu proyecto y te responderé lo antes posible.</p>
+            <form>
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu correo" required>
+                <textarea placeholder="Describe tu proyecto..." required></textarea>
+                <div class="botonCentrado">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Fin formulario de Contacto -->
 
     <!-- Inicio pie de pagina -->
-    <footer>
-        <p>&copy; </p>
+    <footer class="pie">
+        <p>&copy; 2025 F. Sancho — Desarrollador web y multiplataforma</p>
     </footer>
 
     <!-- Fin pie de pagina -->
